@@ -1,0 +1,77 @@
+body {
+  background-image: url(../imgs/background.png);
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/* Dashboard Nav */
+
+#nav-bar {
+  padding: 10% 2% 10% 2%;
+  background: rgba(20, 29, 45, 1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  grid-column: 1/4;
+}
+
+.nav-bar-text {
+  display: inline;
+}
+
+.nav-bar-section {
+  display: flex;
+  padding: 1rem;
+}
+
+/* Main Dashboard */
+
+#dash-info {
+  grid-column: 5/12;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#info-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: rgba(13, 21, 36, 1);
+  height: 10vh;
+  align-items: center;
+  /* padding: 5px 20px 5px 10px; */
+}
+
+#info-section-right {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#search-bar-holder {
+  background: rgba(20, 29, 45, 1);
+  align-items: center;
+  display: flex;
+}
+
+#search-bar {
+  height: 5vh;
+  background: rgba(20, 29, 45, 1);
+  border: 0px;
+  width: 10vw;
+}
+
+#main-content {
+  width: 100%;
+  background: rgba(20, 29, 45, 1);
+}
+
+#sold-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

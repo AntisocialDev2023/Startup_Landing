@@ -1,0 +1,244 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+#hero-section {
+  background-image: url(../imgs/Group\ 3.png);
+  background-repeat: no-repeat;
+  padding-bottom: 4%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+
+li {
+  padding: 0rem 3rem 0rem 0rem;
+  align-items: center;
+}
+
+#hero-section-text {
+  margin: 10% 10% 10% 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#hero-header {
+  font-family: "Titan One", sans-serif;
+  font-size: 73px;
+  background-image: linear-gradient(to left, #00e5af 30px, #00b6e5 700px);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+
+h1 {
+  font-family: "Titan One", sans-serif;
+  font-size: 73px;
+  background-image: linear-gradient(to left, #00e5af 30px, #00b6e5 700px);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#hero-text {
+  font-size: 24px;
+  font-family: "Titan One", sans-serif;
+}
+
+.styled-buttons {
+  background-image: linear-gradient(to left, #00e5af 30px, #00b6e5 700px);
+  padding: 15px 35px 15px 35px;
+  border-radius: 500px;
+  border-color: transparent;
+  color: white;
+  font-size: 27px;
+  font-family: "Titan One", sans-serif;
+}
+
+#hero-icons {
+  padding-top: 1rem;
+}
+
+#section-two-a {
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#section-two-textone {
+  align-items: center;
+  justify-content: center;
+  padding-top: 6%;
+  font-size: 24px;
+  width: 50%;
+  font-family: "Titan One", sans-serif;
+}
+
+#section-two-imageone {
+  width: 50%;
+  padding-left: 18%;
+}
+
+#section-two-b {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#section-two-imagetwo {
+  width: 50%;
+  padding-left: 10%;
+}
+
+#section-two-texttwo {
+  align-items: center;
+  justify-content: center;
+  padding-top: 6%;
+  font-size: 24px;
+  width: 50%;
+  font-family: "Titan One", sans-serif;
+}
+
+#number-samples {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid greenyellow;
+  border-bottom: 1px solid greenyellow;
+}
+
+.numbers {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.headed-num {
+  font-family: "Titan One", sans-serif;
+  font-size: 40px;
+}
+
+.headed-text {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+#collected-parent {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+#collected {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+}
+
+.collected-imgs {
+  width: 100%;
+}
+.collected-groups {
+  padding: 10px;
+}
+
+.box {
+  transform: translateY(5rem);
+  width: 100%;
+  height: 1vh;
+  background-image: linear-gradient(to left, #00e5af 30px, #00b6e5 700px);
+  border-radius: 400px;
+}
+
+#roadmap-section {
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-family: "Titan One", sans-serif;
+  font-size: 15px;
+}
+
+.road-higher {
+  transform: translateY(-5rem);
+}
+
+.road-lower {
+  transform: translateY(5rem);
+}
+
+#FAQ-grid {
+  padding: 5%;
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.FAQ-content {
+  padding: 2% 2% 2% 2%;
+  background-image: url(../imgs/image\ 4.svg);
+  text-align: center;
+  margin: 20px 30px 20px 30px;
+  border: 4px solid transparent;
+  border-image: linear-gradient(to left, #00e5af 30px, #00b6e5 700px) 30;
+  border-width: 2px;
+  border-radius: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-section-right {
+  justify-content: center;
+}
+
+#footer-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 40px;
+}
+
+.FAQ-content-header {
+  font-family: "Titan One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#align_h3 {
+  text-align: center;
+}
